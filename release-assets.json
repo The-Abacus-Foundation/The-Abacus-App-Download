@@ -1,0 +1,17 @@
+{
+  "repository": "The-Abacus-Foundation/The-Abacus-Accounting-Download",
+  "assets": [
+    {
+      "platform": "macos",
+      "filename": "abacus-accounting-macos-arm64.dmg"
+    },
+    {
+      "platform": "windows",
+      "filename": "abacus-accounting-windows-x64.msi"
+    },
+    {
+      "platform": "linux",
+      "filename": "abacus-accounting-linux-x64.AppImage"
+    }
+  ]
+}
