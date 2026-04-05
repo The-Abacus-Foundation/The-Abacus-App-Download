@@ -1,10 +1,11 @@
-# Desktop release assets
+# Versioned installer folders
 
-Place the published desktop installers for The Abacus Accounting app in this folder before creating a GitHub release.
+Each **`assets/v{version}/`** directory holds the published installers for that release, synced from CI.
 
-Expected filenames:
-- `abacus-accounting-macos-arm64.dmg`
-- `abacus-accounting-windows-x64.msi`
-- `abacus-accounting-linux-x64.AppImage`
+Filenames match the main app (`web/package.json` version), for example:
 
-These filenames match the download URLs used by the web app. Once the files are attached to a GitHub release, the links on the home page will download the direct asset files instead of opening the release page.
+- `abacus-accounting-macos-arm64-4.0.1.dmg`
+- `abacus-accounting-windows-x64-4.0.1.msi`
+- `abacus-accounting-linux-x64-4.0.1.AppImage`
+
+Do not edit these manually in production; the **The-Abacus-Accounting-Web** workflow updates this tree.
